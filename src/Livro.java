@@ -1,5 +1,6 @@
 import java.time.LocalTime;
-
+//public static void main (String[] argstring[]){  }
+//é um int main da linguagem C
 public class Livro {
     //para criar uma variavel colocamos
     //tipo nomeVariavel;
