@@ -1,3 +1,6 @@
+package br.com.etechoracio.playLivros.test;
+
+import br.com.etechoracio.playLivros.model.Livro;
 
 public class TestaReferencias {
 
