@@ -16,14 +16,14 @@ public class TestaReferencias {
 
     static void main() {
         Livro livroA = new Livro();
-        livroA.titulo = "Meu Livro A";
-        System.out.println(livroA.titulo);
+        livroA.setTitulo("Meu Livro A");
+        System.out.println(livroA.getTitulo());
 
         Livro livroB = livroA;
-        livroB.titulo = "Meu Livro B";
-        System.out.println(livroB.titulo);
+        livroB.setTitulo("Meu Livro B");
+        System.out.println(livroB.getTitulo());
 
-        System.out.println(livroA.titulo);
+        System.out.println(livroA.getTitulo());
     }
 
 
