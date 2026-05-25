@@ -158,5 +158,7 @@ public class Livro {
                     DisponibilidadeEnum.DISPONIVEL;
         }
     }
-    public
+    public double getTotal(){
+        return preco;
+    }
 }
